@@ -22,7 +22,7 @@ docker-compose logs -f
 - Note: This step it's **OPTIONAL**
 
 ## Swagger
-Click [here](localhost:8000/docs) to see the API documentation
+Go to localhost:8000/docs on your web browser to see the API documentation
 
 
 ## Answers
