@@ -1,0 +1,30 @@
+[
+    {
+        "movement": "DSD + P",
+        "energy": 3,
+        "player": "player1",
+        "name": "Taladoken"
+    },
+    {
+        "movement": "SD + K",
+        "energy": 2,
+        "player": "player1",
+        "name": "Remuyuken"
+    },
+    {"movement": "P", "energy": 1, "player": "player1", "name": "Puño"},
+    {"movement": "K", "energy": 1, "player": "player1", "name": "Patada"},
+    {
+        "movement": "SA + K",
+        "energy": 3,
+        "player": "player2",
+        "name": "Remuyuken"
+    },
+    {
+        "movement": "ASA + P",
+        "energy": 2,
+        "player": "player2",
+        "name": "Taladoken"
+    },
+    {"movement": "P", "energy": 1, "player": "player2", "name": "Patada"},
+    {"movement": "K", "energy": 1, "player": "player2", "name": "Patada"}
+]
