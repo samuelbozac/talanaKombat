@@ -25,6 +25,6 @@
         "player": "player2",
         "name": "Taladoken"
     },
-    {"movement": "P", "energy": 1, "player": "player2", "name": "Patada"},
+    {"movement": "P", "energy": 1, "player": "player2", "name": "Puño"},
     {"movement": "K", "energy": 1, "player": "player2", "name": "Patada"}
 ]

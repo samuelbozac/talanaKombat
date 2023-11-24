@@ -113,13 +113,15 @@ def make_combat_messages(combat: Combat, session: Session):
         combat.player2.golpes
     )
     combat_movements = [*zip(movements1, movements2)]
-    if len(movements1) > len(movements2):
+    len1 = len(movements1)
+    len2 = len(movements2)
+    if len1 > len2:
         combat_movements.extend(
-            [("", x) for x in movements1]
+            [(x, "") for x in movements1[len2:]]
         )
-    elif len(movements1) < len(movements2):
+    elif len1 < len2:
         combat_movements.extend(
-            [("", x) for x in movements2]
+            [("", x) for x in movements2[len1:]]
         )
     player1 = Player("D", "A", PlayerEnum.player1)
     player2 = Player("A", "D", PlayerEnum.player2)
